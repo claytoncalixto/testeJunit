@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="AccountTests" project="teste-junit" tests="4" started="4" failures="0" errors="0" ignored="0">
+  <testsuite name="tests.entities.AccountTests" time="0.048" displayname="AccountTests" uniqueid="[engine:junit-jupiter]/[class:tests.entities.AccountTests]">
+    <testcase name="depositShouldIncreaseBalanceAndDiscountFeeWhenPositiveAmount" classname="tests.entities.AccountTests" time="0.029" displayname="depositShouldIncreaseBalanceAndDiscountFeeWhenPositiveAmount()" uniqueid="[engine:junit-jupiter]/[class:tests.entities.AccountTests]/[method:depositShouldIncreaseBalanceAndDiscountFeeWhenPositiveAmount()]"/>
+    <testcase name="depositShouldDoNothingWhenNegativeAmount" classname="tests.entities.AccountTests" time="0.003" displayname="depositShouldDoNothingWhenNegativeAmount()" uniqueid="[engine:junit-jupiter]/[class:tests.entities.AccountTests]/[method:depositShouldDoNothingWhenNegativeAmount()]"/>
+    <testcase name="withdrawShouldDecreaseBalanceWhenSufficientBalance" classname="tests.entities.AccountTests" time="0.002" displayname="withdrawShouldDecreaseBalanceWhenSufficientBalance()" uniqueid="[engine:junit-jupiter]/[class:tests.entities.AccountTests]/[method:withdrawShouldDecreaseBalanceWhenSufficientBalance()]"/>
+    <testcase name="fullWithdrawShouldClearBalanceAndReturnFullBalance" classname="tests.entities.AccountTests" time="0.014" displayname="fullWithdrawShouldClearBalanceAndReturnFullBalance()" uniqueid="[engine:junit-jupiter]/[class:tests.entities.AccountTests]/[method:fullWithdrawShouldClearBalanceAndReturnFullBalance()]"/>
+  </testsuite>
+</testrun>
