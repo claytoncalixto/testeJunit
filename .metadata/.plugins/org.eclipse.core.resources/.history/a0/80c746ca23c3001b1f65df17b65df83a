@@ -4,6 +4,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import entities.Account;
+import sun.security.action.GetBooleanAction;
 import tests.factory.AccountFactory;
 
 public class AccountTests {
@@ -33,7 +34,7 @@ public class AccountTests {
 	}
 	
 	@Test
-	public void fullWithdrawShouldClearBalanceAndReturnFullBalance() {
+	public void fullWithdrawShouldClearBalance() {
 		
 		double expectedValue = 0.0;
 		double initialBalance = 800.0;
